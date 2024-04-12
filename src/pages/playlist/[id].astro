@@ -38,8 +38,8 @@ const playlistSongs = songs.filter(
                 </div>
 
                 <div class="flex-1 flex items-end">
-                    <div class="text-sm text-gray-300 font-normal">
-                        <div transition:name=`playlist ${id} artists`>
+                    <div class="text-sm text-red-300 font-normal">
+                        <div transition:name=`playlist ${playlist?.id} artists`>
                             <span>{playlist?.artists.join(", ")}</span>
                         </div>
                         <p class="mt-1">
